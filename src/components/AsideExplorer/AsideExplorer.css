@@ -1,0 +1,20 @@
+.aside--wrapper {
+  width: 100%;
+}
+
+.folder--name {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.folder--name .label {
+  color: #1ed75f;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.file--name .label {
+  color: #3aaef6;
+  font-size: 1.25rem;
+}

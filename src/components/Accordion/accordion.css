@@ -1,0 +1,25 @@
+.accordion--wrapper {
+  width: 100%;
+}
+
+.accordion-trigger {
+  all: unset;
+  width: 100%;
+  min-width: max-content;
+  border: none;
+}
+
+.content {
+  padding-inline-start: 1rem;
+  margin-inline-start: 0.45rem;
+  border-left: 1px dashed #f4e80a;
+  overflow: hidden;
+}
+
+.content[data-open="true"] {
+  height: max-content;
+}
+
+.content[data-open="false"] {
+  height: 0;
+}
